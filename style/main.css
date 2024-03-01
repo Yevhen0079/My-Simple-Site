@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: inherit;
+  font: inherit;
+  border: 0;
+  text-decoration: none;
+  outline: none;
+  font-size: 100%;
+  box-sizing: border-box;
+}
+body {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.64;
+  font-family: "Roboto", sans-serif;
+  background: rgba(238, 239, 241, 1);
+  color: black;
+}
+
+.container {
+  max-width: 1142px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+/* Head texts */
+h1,
+h2,
+h3 {
+  font-weight: 500;
+}
+h1 {
+  font-size: 48px;
+}
+h2 {
+  font-size: 32px;
+}
+h3 {
+  font-size: 21px;
+}
+
+/* sec-1 */
+
+#btn {
+  background: rgba(52, 84, 122, 1);
+  color: white;
+  letter-spacing: 1.64px;
+  text-align: center;
+  padding: 19px 41px 20px;
+  cursor: pointer;
+  text-transform: uppercase;
+  min-width: 225px;
+  /* margin: 39px 41px 20px; */
+}
+
+.section-1 {
+  padding: 95px 0 141px;
+}
+.section-1 header {
+  margin-bottom: 151px;
+}
+.section-1 nav a {
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.section-1 nav a:not(:last-of-type) {
+  margin-right: 42px;
+}
+#a-1 {
+  color: rgba(52, 84, 122, 1);
+  font-weight: 500;
+}
+
+.section-1 p {
+  margin: 34px 0 80px;
+  color: rgba(114, 114, 114, 1);
+  max-width: 540px;
+}
+
+/* sec-2 */
+
+.section-2 {
+  padding: 100px 0 100px;
+  text-align: center;
+  background: white;
+}
+.section-2 p {
+  max-width: 540px;
+  margin: 33px auto 0;
+}
+
+/* sec-3 */
+
+#works {
+  background: rgba(52, 84, 122, 1);
+  color: white;
+  padding: 90px 0;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+#works .flex-wrapper {
+  gap: 45px;
+  justify-content: space-between;
+}
+#works .flex-item {
+  gap: 20px;
+}
+
+/* sec-4 */
+
+.section-4 {
+  padding: 90px 0 100px;
+  text-align: center;
+}
+
+.section-4 p {
+  max-width: 540px;
+  margin: 35px auto 57px;
+  color: rgba(114, 114, 114, 1);
+}
+
+/* sec-5 */
+
+.section-5 {
+  background: rgba(52, 84, 122, 1);
+  color: rgba(255, 255, 255, 1);
+  padding: 55px 0 50px;
+}
+.section-5 h3 {
+  line-height: 1.17;
+}
+
+.section-5 p {
+  font-size: 13px;
+  padding-top: 20px;
+}
